@@ -1,0 +1,90 @@
+.login {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 98vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f8f9fd;
+  background-image: url("https://res.cloudinary.com/drnokmrib/image/upload/v1688811228/6424678_qpc2tj.jpg"); 
+  background-size: cover;
+  background-position: center;
+  margin: -8px;
+}
+
+input[type="text"]{
+    height: 25px;
+    border: 1px solid grey;
+    color: #6a3818;
+}
+input[type="password"] {
+  height: 25px;
+  border: 1px solid grey;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  display: flex;
+  color: #6a3818;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  width: 280px;
+  border-radius: 25px;
+  box-shadow: 100px black;
+  opacity: 1PX;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  color: #442210;
+  font-size: 20px;
+}
+
+.input-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  color: #e5b57d;
+  font-size: 20px;
+}
+.register{
+  text-align: right;
+  color: #e5b57d;
+  margin-top: 5px;
+}
