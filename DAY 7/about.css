@@ -1,0 +1,128 @@
+h2 {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    color: red;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+    background-color: red;
+}
+
+#a {
+    text-align: center;
+}
+
+:root {
+    --page-margin: min(2rem, 5vw);
+    color: #444;
+}
+body{
+    background-color:azure;
+    font-size: normal;
+}
+pre{
+    font-style: normal;
+}
+w3-row{
+    padding-left: 40px;
+}
+.keer{
+    text-align: center;
+    font-size: larger;
+    padding-left: 5rem;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h1{
+    margin-left: 80px;
+}
+.z{
+    margin-left: 0px;
+    align-items: center;
+}
+.contact-info {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.card {
+    background: #2f3542;
+    padding: 0 40px;
+    margin: 0 30px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.card-icon {
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon {
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+
+.card p {
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card:hover p {
+    max-height: 40px;
+    opacity: 1;
+}
+
+@media screen and (max-width:800px) {
+    .contact-info {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}

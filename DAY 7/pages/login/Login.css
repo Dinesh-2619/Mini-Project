@@ -1,0 +1,127 @@
+.login {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100.9vh;
+  width: 212.7vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f8f9fd;
+  background-image: url("https://res.cloudinary.com/drnokmrib/image/upload/v1689141877/Login_fg6gpc.jpg"); 
+  background-size: cover;
+  background-position: center;
+  margin: -8px;
+
+}
+.login{
+  color: #f8f9fd;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 350px;
+    border: 1px solid grey;
+    color: #6a3818;
+    border-radius: 5px;
+    padding: 10px 0px 10px 20px;
+}
+input[type="password"] {
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px 0px 10px 20px;
+}
+
+input[type="submit"] {
+  width: 40%;
+  margin-right:40px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 5px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6cf0c2;
+}
+
+.button-container {
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  color: #6a3818;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: transparent;
+  margin-right:1100px;
+  padding: 2rem;
+  width: 480px;
+  box-shadow: 100px black;
+  opacity: 1;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  margin-right: 30px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container1 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  color: #fbfafa;
+  font-size: 20px;
+  padding: 10px 0px 0px 0px;
+}
+
+.input-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+  color: #e5b57d;
+  font-size: 20px;
+  padding: 0px 0px 0px 0px;
+}
+.register{
+  text-align: right;
+  color: #fb0404;
+  margin: 15px 0px 0px 0px;
+}
+
+.register a{
+  margin-right:40px;
+  color: #faf8f8;
+}
+
+input[type=email]{
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px 0px 10px 20px;
+}
+input[type=mobileno]{
+  height: 50px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 10px 0px 10px 20px;
+}
